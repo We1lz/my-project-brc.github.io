@@ -156,3 +156,20 @@ a {
 
 }
 
+@media (max-width: 320px) {
+  .header {
+    flex-direction: column; /* Меняем направление на вертикальное */
+    align-items: flex-start; /* Выравнивание по левому краю */
+  }
+  .header img {
+    margin-bottom: 10px; /* Добавляем отступ снизу от логотипа */
+  }
+  #font {
+    width: 100%;
+  }
+  .container {
+    max-width: 100%; /* Занимаем всю ширину на маленьких экранах */
+  }
+}
+
+
