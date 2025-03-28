@@ -1,0 +1,132 @@
+*{
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  font-size: 24px;
+}
+
+.maps {
+  text-decoration: underline;
+}
+
+.container {
+  position: relative; /* Необходимо для абсолютного позиционирования дочерних элементов */
+  width: 100%; /* Ширина изображения */
+  height: 106px; /* Высота изображения */
+}
+
+.logo {
+  width: 94px;
+  height: 94px;
+  margin-top: 6px;
+  margin-left: 25px;
+}
+
+.background {
+  background: white;
+  height: 100%;
+  z-index: 0;
+}
+
+.btn {
+  background: rgb(54, 54, 54);
+  cursor: pointer;
+  height: 44px;
+  width: 44px;
+  z-index: 1;
+  margin-left: 30px;
+  margin-top: 30px;
+  border: 1px;
+  border-radius: 10px;
+  
+}
+
+.btn i {
+  font-size: 24px;
+  color: white;
+}
+
+.btn-container {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  border: 0;
+  position: relative;
+}
+
+.menu {
+  display: flex;
+  width: 300px;
+  height: 1577px;
+  background: rgb(94, 94, 94);
+  color: white;
+}
+
+#font {
+  height: 1577px;
+  position: absolute;
+  z-index: 10;
+  display: none
+}
+
+#font.show {
+  display: block
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding-left: 5px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.border {
+  width: 100%;
+  height: 50px;
+}
+
+.menu-container {
+  position: relative; /* Необходимо для абсолютного позиционирования дочерних элементов */
+  width: 20%; /* Ширина изображения */
+  height: 100%; /* Высота изображения */
+}
+
+.text {
+  color: black;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.overlay {
+  margin-left: 10%; 
+  margin-top: 10%;
+  width: 100%; 
+  height: 80%;
+  position: relative;
+}
+
+.page-container {
+  width: 100%;
+  height: 1239px;
+}
+
+.contacts {
+  position: absolute;
+  width: 100%;
+  height: 232px;
+}
+
+.contacts-overlay {
+  margin-left: 836px;
+  margin-top: 116px;
+  position: absolute;
+  color: black;
+}
