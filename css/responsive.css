@@ -1,0 +1,146 @@
+@media screen and (max-width: 1440px){
+    body {
+        margin: 0;
+        font-size: 24px;
+        width: 1440px;
+    }
+
+    .trace {
+        font-size: 24px;
+    }
+
+    .header a {
+        font-size: 24px;
+    }
+
+    .container {
+        width: 100%; /* Занимает всю ширину экрана */
+        padding: 0 15px; /* Добавляем отступы от краёв */
+    }
+
+    .BRC-top {
+        font-size: 24px;
+    }
+
+    
+}
+@media screen and (max-width: 1200px){
+    .text{
+        padding-right: 10%;
+        padding-left: 5%;
+    }
+    body {
+        margin: 0;
+        font-size: 26px;
+        height: 1500px;
+    }
+
+      .trace {
+        font-size: 26px;
+    }
+
+    .header a {
+        font-size: 26px;
+    }
+
+    .container {
+        width: 100%; /* Занимает всю ширину экрана */
+        padding: 0 15px; /* Добавляем отступы от краёв */
+    }
+
+    .BRC-top {
+        font-size: 26px;
+    }
+}
+@media screen and (max-width: 992px){
+    body {
+        font-size: 30px;
+        height: 1577px;
+    }
+
+    .trace {
+        font-size: 30px;
+    }
+
+    .header a {
+        font-size: 30px;
+    }
+
+    .container {
+        width: 100%; /* Занимает всю ширину экрана */
+        padding: 0 15px; /* Добавляем отступы от краёв */
+    }
+
+    .BRC-top {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px){
+    body {
+        font-size: 40px;
+    }
+
+    .trace {
+        font-size: 40px;
+    }
+
+    .header a {
+        font-size: 40px;
+    }
+
+    .container {
+        width: 100%; /* Занимает всю ширину экрана */
+        padding: 0 15px; /* Добавляем отступы от краёв */
+    }
+
+    .BRC-top {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 480px){
+    body {
+        font-size: 50px;
+    }
+
+    .trace {
+        font-size: 50px;
+    }
+
+    .header a {
+        font-size: 50px;
+    }
+
+    .container {
+        width: 100%; /* Занимает всю ширину экрана */
+        padding: 0 15px; /* Добавляем отступы от краёв */
+    }
+
+    .BRC-top {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 320px){
+    body {
+        font-size: 60px;
+    }
+
+    .trace {
+        font-size: 60px;
+    }
+
+    .header a {
+        font-size: 60px;
+    }
+
+    .container {
+        width: 100%; /* Занимает всю ширину экрана */
+        padding: 0 15px; /* Добавляем отступы от краёв */
+    }
+
+    .BRC-top {
+        font-size: 60px;
+    }
+}
