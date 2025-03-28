@@ -124,16 +124,18 @@
 
 @media (max-width: 320px){
     body {
-        font-size: 60px;
+        font-size: 80px;
     }
 
     .trace {
-        font-size: 60px;
+        font-size: 80px;
     }
 
     .header a {
-        font-size: 60px;
+        font-size: 80px;
     }
+
+    .header img
 
     .container {
         width: 100%; /* Занимает всю ширину экрана */
@@ -141,6 +143,6 @@
     }
 
     .BRC-top {
-        font-size: 60px;
+        font-size: 80px;
     }
 }
