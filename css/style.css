@@ -41,7 +41,6 @@ body {
   background: rgb(54, 54, 54);
   cursor: pointer;
   height: 4.4vh;
-  width: 4.4vh;
   border: none; /* Удаляем ненужную обводку */
   border-radius: 1vh;
   margin: 3vh; /* Отступ справа */
